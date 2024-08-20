@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: black;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+marquee {
+    color: black;
+    border: 1px solid purple;
+    border-radius: 10px;
+    border-style: groove;
+    font-size: 20px;
+    background-color: white;
+}
